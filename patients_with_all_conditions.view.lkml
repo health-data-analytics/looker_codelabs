@@ -26,10 +26,14 @@ view: patients_with_all_conditions {
     sql: ${TABLE}.med_count ;;
   }
 
-  dimension: patient_id {
+  dimension: patient_id1 {
     type: string
     # hidden: yes
     sql: ${TABLE}.patientId ;;
+    link: {
+      label: "View key vitals"
+      url: "#"
+    }
   }
 
   measure: count {
