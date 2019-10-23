@@ -32,7 +32,7 @@ view: patients_with_all_conditions {
     sql: ${TABLE}.patientId ;;
     link: {
       label: "View key vitals"
-      url: "#"
+      url: "https://googlecloud.looker.com/dashboards/351?Patient={{value}}"
     }
   }
 
