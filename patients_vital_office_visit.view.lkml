@@ -1,7 +1,7 @@
 view: patients_vital_office_visit {
   sql_table_name: hn_views4looker.PatientsVitalOfficeVisit ;;
 
-  dimension_group: dateofmeasurment {
+  dimension_group: dateofmeasurement {
     type: time
     timeframes: [
       raw,
@@ -12,7 +12,7 @@ view: patients_vital_office_visit {
       quarter,
       year
     ]
-    sql: ${TABLE}.dateofmeasurment ;;
+    sql: ${TABLE}.dateofmeasurement ;;
   }
 
   dimension: encounter_type {
