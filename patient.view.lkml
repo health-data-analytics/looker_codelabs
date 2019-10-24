@@ -77,6 +77,7 @@ view: patient {
     sql: ${TABLE}.maritalStatus ;;
   }
 
+
   dimension: phone {
     type: string
     sql: ${TABLE}.phone ;;
