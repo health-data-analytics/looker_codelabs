@@ -30,10 +30,10 @@ view: patients_with_all_conditions {
     type: string
     # hidden: yes
     sql: ${TABLE}.patientId ;;
-    link: {
-      label: "View key vitals"
-      url: "https://googlecloud.looker.com/dashboards/351?Patient={{value}}"
-    }
+   # link: {
+   #    label: "View key vitals"
+   #   url: "https://googlecloud.looker.com/dashboards/351?Patient={{value}}"
+  #}
   }
 
   measure: count {
